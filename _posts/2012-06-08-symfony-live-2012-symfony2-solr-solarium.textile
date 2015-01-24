@@ -1,0 +1,18 @@
+---
+tags: [Symfony2, solr]
+---
+
+h1. My talk about Solr and Symfony during Symfony Live 2012 in Paris
+
+The 6th and 7th of June took place the Symfony Live 2012 in Paris. During
+this big community event, I gave a talk on Solr, and how to make it work
+through Solarium lib.
+<!-- more -->
+
+!{width:522px;height:120px;}http://farm8.staticflickr.com/7223/7189327773_f45537ae4e_o.jpg!
+
+You can see my "slides" on "my github":http://xavierbriand.github.com/training-solr/ account (better on webkit engine).
+
+This slides were made with "impress.js":http://bartaz.github.com/impress.js/.
+
+    Photo by "@alexandresalome":https://twitter.com/#!/alexandresalome.

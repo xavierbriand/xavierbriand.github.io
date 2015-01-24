@@ -1,0 +1,11 @@
+---
+tags: [cocoa]
+---
+
+h1. NSURL from a string
+
+It's quite simple:
+
+bc. NSURL *url = [NSURL URLWithString:@"http://exemple.org"];
+
+The "official documentation":http://developer.apple.com/library/mac/#documentation/Cocoa/Reference/Foundation/Classes/NSURL_Class/Reference/Reference.html.

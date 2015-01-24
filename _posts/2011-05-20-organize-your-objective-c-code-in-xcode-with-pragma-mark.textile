@@ -1,0 +1,25 @@
+---
+tags: [cocoa, xcode]
+---
+
+h1. Organize your Objective-C code in Xcode with #pragma mark
+
+As I didn't know it, @CTRL+MAJ+2@ command opens a contextual popin listing your file's methods.
+
+While coding, it can be a mess quickly in this list. This is where mark saves your life.
+
+Xcode gives you a *pragma mark* metatag you can use in two ways:
+
+First:
+
+bc. #pragma mark -
+
+adds a separator (as @<hr/>@ html tag) in the contextual list.
+
+Second:
+
+bc. #pragma mark Your great not to long description
+
+gathers methods in a group named _Your great not to long description_.
+
+This two uses of Pragma mark allow you to visualy organise your code.

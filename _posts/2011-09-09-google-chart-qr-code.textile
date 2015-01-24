@@ -1,0 +1,11 @@
+---
+tags: [Google chart, QR code]
+---
+
+h1. Google Chart QR Code
+
+Flash this code:
+
+!{width:150px;height:150px;}https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=http://code.google.com/intl/fr/apis/chart/infographics/docs/qr_codes.html!
+
+to go to "Google Chart QR Code Rest API documentation":http://code.google.com/intl/fr/apis/chart/infographics/docs/qr_codes.html.

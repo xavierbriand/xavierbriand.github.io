@@ -1,0 +1,11 @@
+---
+tags: [symfony, wtf]
+---
+
+h1. I've got the Würst connoisseur badge
+
+Today, thanks to "MarcW":https://connect.sensiolabs.com/profile/futurecat and his merge of "my mexican pull request":https://github.com/marcw/MarcWWurstBundle/pull/11, I won the "Sensio Connect Würst connoisseur badge":https://connect.sensiolabs.com/badge/54/wurst-connoisseur.
+
+!{width:200px;height:200px;}https://connect.sensiolabs.com/api/images/2f1067e0-f0ce-46b1-92e6-c9740107b1a9.png?format=200x200(Wurst connoisseur)!
+
+And I'm so proud :D

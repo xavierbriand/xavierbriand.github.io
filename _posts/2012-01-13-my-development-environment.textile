@@ -1,0 +1,12 @@
+---
+tags: [dev, vim, git, tmux, bash]
+---
+
+h1. My development environment
+
+- OS := Linux Debian/Ubuntu or MacOsX
+- Shell := bash with tmux screen multiplexer or Screen
+- Text editor := Vim / MacVim / GVim
+- SCM := Git and Gitolite
+
+And "a good configuration":https://github.com/xavierbriand/profiles.
