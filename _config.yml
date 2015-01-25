@@ -1,7 +1,8 @@
+title: XavierBriand.net
+permalink: /:year/:month/:day/:title
 defaults:
     -
         scope:
             path: ""
         values:
             layout: "default"
-permalink: /:year/:month/:day/:title
