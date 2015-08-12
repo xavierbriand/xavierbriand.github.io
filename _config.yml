@@ -1,8 +1,67 @@
-title: XavierBriand.net
+# Dependencies
+markdown:   kramdown
+# Permalinks
 permalink: /:year/:month/:day/:title
+
 defaults:
     -
         scope:
-            path: ""
+            path: '' # an empty string here means all files in the project
+            type: 'posts'
         values:
-            layout: "default"
+            layout: post
+            image: false
+            video: false
+            commtents: true
+    -
+        scope:
+            path: ''
+            type: 'pages'
+        values:
+            layout: page
+
+# Setup
+title:            Xavier Briand
+tagline:          'blog'
+description:      'My personal blog.'
+url:              'http://xavierbriand.net'
+baseurl:
+commentsystem:    disqus
+disqus:           xavierbriand
+
+author:
+    name:         Xavier Briand
+    url:          'https://instagram.com/xavierbriand/'
+
+paginate:         5
+
+# Custom vars
+icon:             /assets/images/icon.png
+cover:            /assets/images/cover.jpg
+
+social:
+    -
+        icon:       instagram
+        url:        'https://instagram.com/xavierbriand/'
+        desc:       Follow me on Instagram
+    -
+        icon:       flickr
+        url:        'https://flickr.com/xavierbriand'
+        desc:       Follow me on Flickr
+
+menu:
+    -
+        title:      Home
+        url:        /
+
+copyright:
+    author:       Xavier Briand
+    url:          http://xavierbriand.net
+
+parallax:         false
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics:
+
+# Default Theme Color for Chrome on Android Lollipop (Use RGB ColorCode without `#`, e.g.: `db5945`)
+theme_color:       7E9576
