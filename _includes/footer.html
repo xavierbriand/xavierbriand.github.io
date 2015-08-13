@@ -1,10 +1,10 @@
-{% if include.page.next %}
-    {% capture footer_style %}{% if include.page.next.dark %}dark{% else %}clean{% endif %}{% endcapture %}
-    {% capture footer_image %}{% if include.page.next.image.url %}{{ site.baseurl }}{{ include.page.next.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
+{% if include.next %}
+    {% capture footer_style %}{% if include.next.dark %}dark{% else %}clean{% endif %}{% endcapture %}
+    {% capture footer_image %}{% if include.next.image.url %}{{ site.baseurl }}{{ include.next.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
     {% capture footer_message %}Read next{% endcapture %}
-    {% capture footer_url %}{{ site.baseurl }}{{ include.page.next.url }}{% endcapture %}
-    {% capture footer_title %}{{ include.page.next.title }}{% endcapture %}
-    {% capture footer_quote %}{{ include.page.next.quote }}{% endcapture %}
+    {% capture footer_url %}{{ site.baseurl }}{{ include.next.url }}{% endcapture %}
+    {% capture footer_title %}{{ include.next.title }}{% endcapture %}
+    {% capture footer_quote %}{{ include.next.quote }}{% endcapture %}
 {% else %}
     {% for post in site.related_posts limit:1 %}
         {% capture footer_style %}{% if post.dark %}dark{% else %}clean{% endif %}{% endcapture %}
@@ -16,5 +16,22 @@
     {% endfor %}
 {% endif %}
 {% unless footer_style %}
-    {% capture footer_style %}{% if include.page.dark %}dark{% else %}clean{% endif %}{% endcapture %}
+    {% capture footer_style %}{% if page.dark %}dark{% else %}clean{% endif %}{% endcapture %}
 {% endunless %}
+<footer class="{{ footer_style }}" style="background-image: url({% if footer_image %}{{ footer_image }}{% else %}{{ site.cover }}{% endif %}); height: 50%; min-height: 500px; {% if site.parallax != true %}background-attachment: scroll;{% endif %}" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50" data-stellar-vertical-offset="50">
+    <div id="nav-icon" style="top: 60px;" data-stellar-ratio="0.8">
+        <a class="scroll" data-speed="500" href="#article"><span class="genericon genericon-collapse"></span></a>
+    </div>
+    <div class="post-info-wrapper">
+        <div class="post-info" data-stellar-ratio="0.5" data-stellar-vertical-offset="120">
+            <h3>{{ footer_message }}</h3>
+            <a href="{{ footer_url }}">
+                <h1>{{ footer_title }}</h1>
+                {% if footer_quote != '' %}
+                    <h2>{{ footer_quote }}</h2>
+                {% endif %}
+            </a>
+        </div>
+    </div>
+    <p class="copyright">&copy;{{ site.time | date: "%Y" }}, <a href="{{ site.copyright.url }}" target="_blank">{{ site.copyright.author }}</a>. <a href="{{ site.copyright.type_url }}" target="_blank">{{ site.copyright.type_title }}</a>.</p>
+</footer>
