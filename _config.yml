@@ -52,6 +52,9 @@ menu:
     -
         title:      Home
         url:        /
+    -
+        title:      Strava
+        url:        'http://www.strava.com/athletes/xavierbriand'
 
 copyright:
     author:       Xavier Briand
