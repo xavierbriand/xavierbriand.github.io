@@ -4,11 +4,11 @@ header, footer {
     background-attachment: fixed;
 }
 
-#post-info {
+.post-info {
     width: 700px;
 }
 
-#post-info h1 {
+.post-info h1 {
     font-weight: bold;
     font-size: 44px;
     line-height: 44px;

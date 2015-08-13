@@ -1,0 +1,20 @@
+{% if include.page.next %}
+    {% capture footer_style %}{% if include.page.next.dark %}dark{% else %}clean{% endif %}{% endcapture %}
+    {% capture footer_image %}{% if include.page.next.image.url %}{{ site.baseurl }}{{ include.page.next.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
+    {% capture footer_message %}Read next{% endcapture %}
+    {% capture footer_url %}{{ site.baseurl }}{{ include.page.next.url }}{% endcapture %}
+    {% capture footer_title %}{{ include.page.next.title }}{% endcapture %}
+    {% capture footer_quote %}{{ include.page.next.quote }}{% endcapture %}
+{% else %}
+    {% for post in site.related_posts limit:1 %}
+        {% capture footer_style %}{% if post.dark %}dark{% else %}clean{% endif %}{% endcapture %}
+        {% capture footer_image %}{% if post.image.url %}{{ site.baseurl }}{{ post.image.url }}{% else %}{{ site.cover }}{% endif %}{% endcapture %}
+        {% capture footer_message %}Featured post{% endcapture %}
+        {% capture footer_url %}{{ site.baseurl }}{{ post.url }}{% endcapture %}
+        {% capture footer_title %}{{ post.title }}{% endcapture %}
+        {% capture footer_quote %}{{ post.quote }}{% endcapture %}
+    {% endfor %}
+{% endif %}
+{% unless footer_style %}
+    {% capture footer_style %}{% if include.page.dark %}dark{% else %}clean{% endif %}{% endcapture %}
+{% endunless %}

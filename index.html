@@ -14,8 +14,8 @@ title: Home
     {% for post in paginator.posts %}
         <div>
             <span class="post-date">{{ post.date | date_to_long_string }}</span>
-            {% if post.instagram %}
-                <h1><span class="genericon genericon-instagram"></span> {{ post.title }}</h1>
+            {% if post.layout == 'instagram' %}
+                <h1><a href="{{ post.url }}"/><span class="genericon genericon-instagram"></span> {{ post.title }}</a></h1>
                 <div class="post-description">{{ post.content }}</div>
             {% else %}
                 <h1><a href="{{ post.url }}"/>{{ post.title }}</a></h1>

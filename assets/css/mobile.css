@@ -13,11 +13,11 @@ h2 {
     font-size: 28px;
 }
 
-#post-info {
+.post-info {
     width: 90%;
 }
 
-#post-info h1 {
+.post-info h1 {
     font-weight: bold;
     font-size: 30px;
     line-height: 30px;
