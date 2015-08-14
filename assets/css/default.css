@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, caption, p {
 
 html, body {
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
 }
 
