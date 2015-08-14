@@ -1,18 +1,19 @@
 ---
 title: Canals, Lake and Niagara Falls
-quote: Last Thanksgiving long week, the Girl, I and our tandem bicycle went to Niagara Falls region to cycle along the Welland Canals parkway trail and the Niagara River recreation trail.
+quote: Last Thanksgiving long week, C, I and our tandem bicycle went to Niagara Falls region to cycle along the Welland Canals parkway trail and the Niagara River recreation trail.
 image:
     url: https://farm4.staticflickr.com/3948/15507021896_34a1fd790e_b.jpg
 tags: [Bikepacking, Tandem]
 ---
 
-Last Thanksgiving long week, the Girl, I and our tandem bicycle went to Niagara Falls region to cycle along the Welland Canals parkway trail and the Niagara River recreation trail.
+Last Thanksgiving long week, C, I and our tandem bicycle went to Niagara Falls region to cycle along the Welland Canals parkway trail and the Niagara River recreation trail.
 
-<a href="https://www.flickr.com/photos/xavierbriand/15531570792" title="2014-10-12_10-40-27 by Xavier Briand, on Flickr"><img class="full" src="https://farm4.staticflickr.com/3932/15531570792_6e391e1189_z.jpg" width="640" height="427" alt="2014-10-12_10-40-27"></a>
+
+"!https://farm4.staticflickr.com/3932/15531570792_6e391e1189_z.jpg!":https://www.flickr.com/photos/xavierbriand/15531570792
 
 I found the route in:
 
-![Cycling in Ontario](http://www.guidesulysse.com/images/335pix/9782894649572.jpg)
+!http://www.guidesulysse.com/images/335pix/9782894649572.jpg(Cycling in Ontario)!
 
 Some notes:
 
